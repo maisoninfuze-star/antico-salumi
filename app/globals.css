@@ -1,0 +1,259 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════════════
+   ANTICO SALUMI — système de design
+   Héritage italien : oxblood, noyer, crème vieillie, or antique.
+   Thème chaud verrouillé. Textures papier/bois très discrètes.
+   ═══════════════════════════════════════════════════════════════ */
+
+@theme {
+  --color-oxblood: #86231c;
+  --color-oxblood-deep: #5e1712;
+  --color-walnut: #2a1b12;
+  --color-walnut-deep: #180f09;
+  --color-espresso: #140c07;
+  --color-cream: #f3ead8;
+  --color-parchment: #ece1c9;
+  --color-parchment-deep: #e3d6ba;
+  --color-gold: #a9854a;
+  --color-gold-soft: #c2a56a;
+  --color-ink: #23150e;
+  --color-ink-soft: #6a5643;
+
+  --ease-lux: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-lux2: cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+:root {
+  --gutter: clamp(1.25rem, 4vw, 5rem);
+  --hairline: rgba(35, 21, 14, 0.16);
+  --hairline-cream: rgba(243, 234, 216, 0.16);
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: #ece1c9;
+  color: #23150e;
+  font-family: var(--font-sans), "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+/* Lenis */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth { scroll-behavior: auto !important; }
+.lenis.lenis-stopped { overflow: hidden; }
+
+::selection { background: var(--color-oxblood); color: var(--color-cream); }
+
+img { display: block; max-width: 100%; height: auto; }
+a { color: inherit; text-decoration: none; }
+
+:focus-visible { outline: 2px solid var(--color-oxblood); outline-offset: 3px; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display), Georgia, "Times New Roman", serif;
+  font-weight: 600;
+  line-height: 1.05;
+  margin: 0;
+  text-wrap: balance;
+}
+p { margin: 0; }
+
+/* Grain papier, fixe et inerte */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  pointer-events: none;
+  opacity: 0.045;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.6'/%3E%3C/svg%3E");
+}
+
+/* ── Utilitaires éditoriaux ─────────────────────────────────── */
+
+.wrap { max-width: 1400px; margin-inline: auto; padding-inline: var(--gutter); }
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.72rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-oxblood);
+  margin: 0;
+}
+.eyebrow-gold { color: var(--color-gold); }
+
+.display-huge {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: -0.015em;
+}
+
+/* Texture bois de noyer (sections sombres) */
+.bg-wood {
+  background-color: #2a1b12;
+  background-image:
+    repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.12) 0 2px, transparent 2px 46px),
+    repeating-linear-gradient(90deg, rgba(169, 133, 74, 0.05) 0 1px, transparent 1px 90px),
+    linear-gradient(180deg, #31200f, #22150c);
+}
+
+/* Papier vieilli (sections claires) */
+.bg-paper {
+  background-color: #ece1c9;
+  background-image:
+    radial-gradient(120% 80% at 50% -10%, rgba(169, 133, 74, 0.08), transparent 60%);
+}
+
+/* ── Cadre à double lunette (bois + passe-partout crème) ────── */
+.frame {
+  margin: 0;
+  background: #2a1b12;
+  padding: clamp(8px, 0.7vw, 12px);
+  box-shadow:
+    inset 0 0 0 1px rgba(169, 133, 74, 0.55),
+    0 30px 70px rgba(20, 12, 7, 0.28);
+}
+.frame-mat { display: block; background: var(--color-cream); padding: clamp(7px, 0.6vw, 11px); }
+.frame-mat img { width: 100%; }
+.frame figcaption {
+  margin-top: 0.9rem;
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.02rem;
+  color: var(--color-ink-soft);
+}
+
+/* ── Boutons ────────────────────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.9rem;
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.5s var(--ease-lux2), color 0.5s var(--ease-lux2),
+    border-color 0.5s var(--ease-lux2), transform 0.2s var(--ease-lux2);
+}
+.btn:active { transform: scale(0.975); }
+
+.btn-primary { background: var(--color-oxblood); color: var(--color-cream); padding: 0.72rem 0.72rem 0.72rem 1.7rem; }
+.btn-primary:hover { background: var(--color-oxblood-deep); }
+
+.btn-ico {
+  width: 2.15rem; height: 2.15rem;
+  display: grid; place-items: center;
+  background: rgba(243, 234, 216, 0.16);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  font-size: 1rem; line-height: 1;
+  transition: transform 0.5s var(--ease-lux2);
+}
+.btn-primary:hover .btn-ico { transform: translate(2px, 0) scale(1.05); }
+
+.btn-ghost {
+  border-color: currentColor;
+  padding: 0.72rem 1.5rem;
+  color: inherit;
+}
+.btn-ghost:hover { background: currentColor; }
+.btn-ghost.on-dark:hover { color: var(--color-walnut); }
+.btn-ghost.on-light:hover { color: var(--color-cream); }
+
+.link-quiet {
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid var(--color-gold);
+  padding-bottom: 0.2rem;
+  transition: color 0.4s var(--ease-lux2), border-color 0.4s var(--ease-lux2);
+}
+.link-quiet:hover { color: var(--color-oxblood); border-color: var(--color-oxblood); }
+
+/* ── Lettrine ───────────────────────────────────────────────── */
+.dropcap::first-letter {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 3.4em;
+  line-height: 0.78;
+  color: var(--color-oxblood);
+  float: left;
+  padding: 0.06em 0.14em 0 0;
+}
+
+/* ── Marquee ────────────────────────────────────────────────── */
+.marquee { overflow: hidden; }
+.marquee-track { display: flex; width: max-content; will-change: transform; }
+.marquee-seg {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.marquee-seg em { font-style: normal; color: var(--color-gold); font-size: 0.7em; vertical-align: 0.12em; padding: 0 0.55ch; }
+
+/* Filet doré */
+.rule-gold { height: 1px; background: var(--color-gold); border: 0; }
+
+/* Révélation d'entrée en animation CSS pilotée par le défilement
+   (animation-timeline: view()) — pas de JS, pilotée par le compositeur.
+   Sans support ou sans JS : contenu visible (aucune règle ne le cache). */
+.reveal { opacity: 1; }
+@supports (animation-timeline: view()) {
+  .reveal {
+    opacity: 0;
+    animation: reveal-in linear both;
+    animation-timeline: view();
+    animation-range: entry 4% entry 42%;
+    will-change: opacity, transform;
+  }
+  @keyframes reveal-in {
+    from { opacity: 0; transform: translateY(30px); filter: blur(6px); }
+    to { opacity: 1; transform: none; filter: none; }
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1 !important; transform: none !important; filter: none !important; animation: none !important; }
+}
+
+/* Barre d'action mobile */
+.mobilebar { display: none; }
+@media (max-width: 860px) {
+  .mobilebar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    z-index: 60;
+    background: rgba(20, 12, 7, 0.94);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid var(--hairline-cream);
+  }
+  .mobilebar a {
+    display: flex; flex-direction: column; align-items: center; gap: 0.25rem;
+    padding: 0.7rem 0.5rem calc(0.7rem + env(safe-area-inset-bottom, 0));
+    color: var(--color-cream);
+    font-size: 0.72rem; letter-spacing: 0.06em;
+  }
+  .mobilebar a + a { border-left: 1px solid var(--hairline-cream); }
+  .mobilebar svg { width: 20px; height: 20px; stroke: var(--color-gold); }
+  body { padding-bottom: 64px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lenis.lenis-smooth { scroll-behavior: auto !important; }
+  * { scroll-behavior: auto !important; }
+}
