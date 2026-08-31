@@ -33,7 +33,7 @@ export default function MenuList({ t, lang, limit }: { t: Dict; lang: Locale; li
                   <span className="menu-item-no">№ {p.no}</span>
                   <h3 className="menu-item-name">{p.name}</h3>
                   <p className="menu-item-desc">{lang === "fr" ? p.descFr : p.descEn}</p>
-                  {p.price && <span className="menu-item-price">{p.price}</span>}
+                  {p.price != null && <span className="menu-item-price">{lang === "fr" ? `${p.price} $` : `$${p.price}`}</span>}
                 </div>
               </Reveal>
             ))}
@@ -54,7 +54,7 @@ export default function MenuList({ t, lang, limit }: { t: Dict; lang: Locale; li
                         <span className="menu-item-no">№ {p.no}</span>
                         <h3 className="menu-item-name">{p.name}</h3>
                         <p className="menu-item-desc">{lang === "fr" ? p.descFr : p.descEn}</p>
-                        {p.price && <span className="menu-item-price">{p.price}</span>}
+                        {p.price != null && <span className="menu-item-price">{lang === "fr" ? `${p.price} $` : `$${p.price}`}</span>}
                       </div>
                     </Reveal>
                   ))}

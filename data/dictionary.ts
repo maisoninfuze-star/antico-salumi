@@ -88,7 +88,7 @@ export const dict = {
       eyebrow: "Il menù",
       title: "Quinze panini, numérotés comme au comptoir.",
       sub: "Sur focaccia maison, à la salle ou pour emporter.",
-      noteFr: "Les prix sont affichés au comptoir. Menu sujet à changement selon les arrivages.",
+      noteFr: "Sur focaccia maison. Prix en dollars canadiens, taxes en sus. Menu sujet à changement selon les arrivages.",
     },
     foodMoment: {
       big: ["Pane.", "Salumi.", "Passione."],
@@ -126,6 +126,9 @@ export const dict = {
       ],
       cta: "Demander une soumission",
       ctaSecondary: "Appelez-nous",
+      menuEyebrow: "Il menù",
+      menuTitle: "Le menu traiteur",
+      menuNote: "Prix en dollars canadiens, taxes en sus. Menu et prix sujets à changement. Contactez-nous pour une soumission adaptée à votre événement.",
     },
     gallery: {
       eyebrow: "La galleria",
@@ -271,7 +274,7 @@ export const dict = {
       eyebrow: "Il menù",
       title: "Fifteen panini, numbered like the counter.",
       sub: "On house focaccia, dine in or to go.",
-      noteFr: "Prices are posted at the counter. Menu subject to change with the season.",
+      noteFr: "On house focaccia. Prices in Canadian dollars, taxes extra. Menu subject to change with the season.",
     },
     foodMoment: {
       big: ["Pane.", "Salumi.", "Passione."],
@@ -309,6 +312,9 @@ export const dict = {
       ],
       cta: "Request a quote",
       ctaSecondary: "Call us",
+      menuEyebrow: "Il menù",
+      menuTitle: "The catering menu",
+      menuNote: "Prices in Canadian dollars, taxes extra. Menu and prices subject to change. Contact us for a quote tailored to your event.",
     },
     gallery: {
       eyebrow: "La galleria",
