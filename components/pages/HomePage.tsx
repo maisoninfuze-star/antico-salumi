@@ -8,7 +8,6 @@ import HeritageStory from "../HeritageStory";
 import ProductCategories from "../ProductCategories";
 import FoodMoment from "../FoodMoment";
 import MenuList from "../MenuList";
-import PiccoloTransition from "../PiccoloTransition";
 import Quote from "../Quote";
 import Reviews from "../Reviews";
 import InstagramSection from "../Instagram";
@@ -25,7 +24,6 @@ export default function HomePage({ lang }: { lang: Locale }) {
       <ProductCategories t={t} lang={lang} />
       <FoodMoment t={t} />
       <MenuList t={t} lang={lang} limit={6} />
-      <PiccoloTransition t={t} />
       <Quote t={t} />
       <Reviews t={t} lang={lang} />
       <InstagramSection t={t} />

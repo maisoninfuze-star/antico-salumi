@@ -21,10 +21,10 @@ export const dict = {
     },
     pageHeaders: {
       story: { eyebrow: "La tradizione", title: "Notre histoire", subtitle: "Une maison italienne, une passion transmise de génération en génération." },
-      menu: { eyebrow: "Il menù", title: "Le menu", subtitle: "Quinze panini préparés à la minute, sur focaccia maison." },
+      menu: { eyebrow: "Il menù", title: "Le menu", subtitle: "Quinze sandwichs préparés à la minute, sur notre focaccia maison." },
       catering: { eyebrow: "Antico Traiteur", title: "Traiteur", subtitle: "L'Italie à votre table, pour toutes vos occasions." },
       gallery: { eyebrow: "La galleria", title: "Galerie", subtitle: "Un avant-goût de la maison." },
-      contact: { eyebrow: "Ci vediamo presto", title: "Nous trouver", subtitle: "À Laval, anciennement Piccolo Bistro." },
+      contact: { eyebrow: "Ci vediamo presto", title: "Nous trouver", subtitle: "À Laval, sur le boulevard Curé-Labelle." },
     },
     cta: {
       menuAll: "Voir tout le menu",
@@ -48,30 +48,21 @@ export const dict = {
       eyebrow: "La tradizione",
       title: "Une histoire qui se goûte.",
       body: [
-        "Chez Antico Salumi, la simplicité est une tradition. Du bon pain, des charcuteries soigneusement sélectionnées, des fromages italiens et des ingrédients qui n'ont pas besoin d'artifice.",
+        "Chez Antico Salumi, la simplicité est une tradition. Du bon pain, des charcuteries que nous fabriquons sur place, des fromages italiens et des ingrédients qui n'ont pas besoin d'artifice.",
         "Nous célébrons l'Italie telle qu'on l'aime : généreuse, chaleureuse et profondément attachée à ses traditions.",
       ],
       accent: "Mangiare bene è vivere bene.",
       accentSub: "Bien manger, c'est bien vivre.",
-    },
-    piccolo: {
-      title: "Piccolo évolue.",
-      body: [
-        "Vous nous connaissez peut-être sous le nom de Piccolo. Aujourd'hui, notre histoire continue sous une nouvelle identité : Antico Salumi.",
-        "Une nouvelle maison, inspirée par les traditions italiennes que nous avons toujours aimées.",
-      ],
-      accent: "Stessa passione. Nuovo capitolo.",
-      accentSub: "La même passion. Un nouveau chapitre.",
     },
     products: {
       eyebrow: "I nostri classici",
       title: "Les incontournables de la maison.",
       items: [
         { key: "panini", name: "Panini", it: "Panini",
-          desc: "Des sandwichs généreux préparés à la minute, garnis de charcuteries italiennes, de fromages et d'ingrédients soigneusement sélectionnés.",
+          desc: "Des sandwichs généreux préparés à la minute, garnis de nos charcuteries fabriquées sur place, de fromages italiens et d’ingrédients frais.",
           cta: "Voir les panini", href: "#menu" },
         { key: "salumi", name: "Salumi", it: "Salumi",
-          desc: "Prosciutto, mortadella, salame et spécialités italiennes tranchées comme dans une véritable salumeria.",
+          desc: "Prosciutto, mortadella, salame et spécialités que nous fabriquons sur place, tranchées comme dans une véritable salumeria.",
           cta: "Découvrir nos charcuteries", href: "#menu" },
         { key: "formaggi", name: "Formaggi", it: "Formaggi",
           desc: "Des fromages italiens sélectionnés pour accompagner nos sandwichs, plateaux et antipasti.",
@@ -86,9 +77,9 @@ export const dict = {
     },
     menu: {
       eyebrow: "Il menù",
-      title: "Quinze panini, numérotés comme au comptoir.",
-      sub: "Sur focaccia maison, à la salle ou pour emporter.",
-      noteFr: "Sur focaccia maison. Prix en dollars canadiens, taxes en sus. Menu sujet à changement selon les arrivages.",
+      title: "Quinze sandwichs, numérotés comme au comptoir.",
+      sub: "Préparés sur notre focaccia maison. Sur place ou pour emporter.",
+      noteFr: "Sur notre focaccia maison. Prix en dollars canadiens, taxes en sus. Menu sujet à changement selon les arrivages.",
     },
     foodMoment: {
       big: ["Pane.", "Salumi.", "Passione."],
@@ -156,7 +147,6 @@ export const dict = {
       title: "On se voit bientôt.",
       name: "Antico Salumi",
       hoursTitle: "Heures d'ouverture",
-      formerNote: "Anciennement Piccolo Bistro — même adresse, même comptoir.",
       directions: "Itinéraire",
       call: "Appeler",
       order: "Commander",
@@ -178,7 +168,7 @@ export const dict = {
       rights: "Tous droits réservés.",
       privacy: "Politique de confidentialité",
       terms: "Conditions",
-      former: "Antico Salumi — anciennement Piccolo, Laval",
+      former: "Antico Salumi, Laval",
     },
     a11y: {
       toMenu: "Menu",
@@ -207,10 +197,10 @@ export const dict = {
     },
     pageHeaders: {
       story: { eyebrow: "La tradizione", title: "Our story", subtitle: "An Italian house, a passion handed down through generations." },
-      menu: { eyebrow: "Il menù", title: "The menu", subtitle: "Fifteen panini made to order, on house focaccia." },
+      menu: { eyebrow: "Il menù", title: "The menu", subtitle: "Fifteen sandwiches made to order, crafted on our house-made focaccia." },
       catering: { eyebrow: "Antico Catering", title: "Catering", subtitle: "Italy at your table, for every occasion." },
       gallery: { eyebrow: "La galleria", title: "Gallery", subtitle: "A taste of the house." },
-      contact: { eyebrow: "Ci vediamo presto", title: "Find us", subtitle: "In Laval, formerly Piccolo Bistro." },
+      contact: { eyebrow: "Ci vediamo presto", title: "Find us", subtitle: "In Laval, on boulevard Curé-Labelle." },
     },
     cta: {
       menuAll: "See the full menu",
@@ -234,30 +224,21 @@ export const dict = {
       eyebrow: "La tradizione",
       title: "A tradition you can taste.",
       body: [
-        "At Antico Salumi, simplicity is a tradition. Good bread, carefully chosen cured meats, Italian cheeses, and ingredients that need no dressing up.",
+        "At Antico Salumi, simplicity is a tradition. Good bread, cured meats we make in house, Italian cheeses, and ingredients that need no dressing up.",
         "We celebrate Italy the way we love it: generous, warm, and deeply devoted to its traditions.",
       ],
       accent: "Mangiare bene è vivere bene.",
       accentSub: "To eat well is to live well.",
-    },
-    piccolo: {
-      title: "Piccolo is evolving.",
-      body: [
-        "You may know us as Piccolo. Today, our story continues under a new name: Antico Salumi.",
-        "A new home, inspired by the Italian traditions we have always loved.",
-      ],
-      accent: "Stessa passione. Nuovo capitolo.",
-      accentSub: "The same passion. A new chapter.",
     },
     products: {
       eyebrow: "I nostri classici",
       title: "The house favourites.",
       items: [
         { key: "panini", name: "Panini", it: "Panini",
-          desc: "Generous sandwiches made to order, layered with Italian cured meats, cheeses and carefully chosen ingredients.",
+          desc: "Generous sandwiches made to order, layered with our house-made cured meats, Italian cheeses and fresh ingredients.",
           cta: "See the panini", href: "#menu" },
         { key: "salumi", name: "Salumi", it: "Salumi",
-          desc: "Prosciutto, mortadella, salame and Italian specialties, sliced as in a true salumeria.",
+          desc: "Prosciutto, mortadella, salame and specialties we make in house, sliced as in a true salumeria.",
           cta: "Discover our salumi", href: "#menu" },
         { key: "formaggi", name: "Formaggi", it: "Formaggi",
           desc: "Italian cheeses chosen to accompany our sandwiches, boards and antipasti.",
@@ -272,9 +253,9 @@ export const dict = {
     },
     menu: {
       eyebrow: "Il menù",
-      title: "Fifteen panini, numbered like the counter.",
-      sub: "On house focaccia, dine in or to go.",
-      noteFr: "On house focaccia. Prices in Canadian dollars, taxes extra. Menu subject to change with the season.",
+      title: "Fifteen sandwiches, numbered like the counter.",
+      sub: "Crafted on our house-made focaccia. Dine in or take it to go.",
+      noteFr: "On our house-made focaccia. Prices in Canadian dollars, taxes extra. Menu subject to change with the season.",
     },
     foodMoment: {
       big: ["Pane.", "Salumi.", "Passione."],
@@ -342,7 +323,6 @@ export const dict = {
       title: "See you soon.",
       name: "Antico Salumi",
       hoursTitle: "Opening hours",
-      formerNote: "Formerly Piccolo Bistro — same address, same counter.",
       directions: "Directions",
       call: "Call",
       order: "Order",
@@ -364,7 +344,7 @@ export const dict = {
       rights: "All rights reserved.",
       privacy: "Privacy policy",
       terms: "Terms",
-      former: "Antico Salumi — formerly Piccolo, Laval",
+      former: "Antico Salumi, Laval",
     },
     a11y: {
       toMenu: "Menu",

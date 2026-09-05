@@ -19,7 +19,6 @@ export default function LocationSection({ t, lang }: { t: Dict; lang: Locale }) 
                 {site.address.street}<br />
                 {site.address.city} ({site.address.province}) &nbsp;{site.address.postal}
               </address>
-              <p className="location-former">{t.location.formerNote}</p>
             </div>
           </Reveal>
 

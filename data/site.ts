@@ -1,14 +1,13 @@
 // ─────────────────────────────────────────────────────────────
 // Coordonnées de l'établissement.
-// Données VÉRIFIÉES (anciennement Piccolo Bistro, même adresse) :
+// Données VÉRIFIÉES (même adresse que le commerce précédent) :
 //   adresse + téléphone confirmés par les fiches en ligne.
 // À CONFIRMER par le client avant la mise en ligne : les heures
-// (reprises des fiches Piccolo) et les identifiants de réseaux sociaux.
+// (reprises des fiches en ligne) et les identifiants de réseaux sociaux.
 // ─────────────────────────────────────────────────────────────
 
 export const site = {
   name: "Antico Salumi",
-  formerName: "Piccolo",
   founded: "1934",
   phoneDisplay: "450 978-6553",
   phoneHref: "tel:+14509786553",
@@ -31,7 +30,7 @@ export const site = {
     instagramHandle: "@anticosalumi",
     facebook: "https://facebook.com/anticosalumi",
   },
-  // Heures reprises des fiches Piccolo — À CONFIRMER.
+  // Heures reprises des fiches en ligne — À CONFIRMER.
   hours: [
     { dayFr: "Lundi", dayEn: "Monday", value: "9 h – 18 h", spec: "Mo 09:00-18:00" },
     { dayFr: "Mardi", dayEn: "Tuesday", value: "8 h – 18 h", spec: "Tu 08:00-18:00" },

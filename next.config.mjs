@@ -4,14 +4,11 @@ const nextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
   },
-  // Préserver l'équité SEO de Piccolo : rediriger les anciennes routes vers Antico Salumi.
+  // Redirections des anciennes routes.
   async redirects() {
     return [
-      { source: "/piccolo", destination: "/", permanent: true },
       { source: "/accueil", destination: "/", permanent: true },
       { source: "/home", destination: "/en", permanent: true },
-      { source: "/menu-piccolo", destination: "/menu", permanent: true },
-      { source: "/piccolo-menu", destination: "/menu", permanent: true },
     ];
   },
 };

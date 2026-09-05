@@ -126,15 +126,6 @@
 .heritage-accent em { display: block; font-family: var(--font-display); font-style: italic; font-size: 1.9rem; color: var(--color-oxblood); }
 .heritage-accent span { display: block; margin-top: 0.4rem; font-size: 0.92rem; letter-spacing: 0.04em; color: var(--color-ink-soft); }
 
-/* ── Piccolo évolue ─────────────────────────────────────────── */
-.piccolo { padding: clamp(4.5rem, 8vw, 7rem) 0; }
-.piccolo-inner { max-width: 52rem; text-align: center; margin-inline: auto; }
-.piccolo-title { font-size: clamp(1.9rem, 3.4vw, 2.9rem); margin-bottom: 1.4rem; }
-.piccolo-body { display: grid; gap: 0.9rem; }
-.piccolo-accent { margin-top: 2rem; }
-.piccolo-accent em { display: block; font-family: var(--font-display); font-style: italic; font-size: 1.6rem; color: var(--color-gold); }
-.piccolo-accent span { display: block; margin-top: 0.3rem; font-size: 0.9rem; color: rgba(243,234,216,.7); }
-
 /* ── I nostri classici ──────────────────────────────────────── */
 .products { padding: clamp(5rem, 9vw, 8rem) 0; border-top: 1px solid var(--hairline); }
 .products-head { max-width: 46rem; margin-bottom: clamp(2.5rem, 5vw, 4rem); }

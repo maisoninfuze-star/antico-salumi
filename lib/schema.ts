@@ -6,11 +6,10 @@ export function restaurantSchema(locale: "fr" | "en") {
     "@context": "https://schema.org",
     "@type": "Restaurant",
     name: site.name,
-    alternateName: "Antico Salumi — anciennement Piccolo",
     description:
       locale === "fr"
-        ? "Salumeria, sandwicherie, bistro et traiteur italien à Laval. Charcuteries italiennes et panini préparés à l'ancienne."
-        : "Italian salumeria, sandwich shop, bistro and catering in Laval. Italian cured meats and panini made the old way.",
+        ? "Salumeria, sandwicherie, bistro et traiteur italien à Laval. Charcuteries que nous fabriquons sur place et sandwichs préparés à l’ancienne."
+        : "Italian salumeria, sandwich shop, bistro and catering in Laval. House-made cured meats and sandwiches made the old way.",
     servesCuisine: ["Italian", "Sandwiches", "Charcuterie"],
     priceRange: "$$",
     url: site.url,
