@@ -16,8 +16,8 @@ const META: Record<PageKey, { fr: M; en: M }> = {
     en: { title: "Our story", description: "The story of Antico Salumi, an Italian salumeria in Laval — Italian tradition since 1954." },
   },
   menu: {
-    fr: { title: "Menu — Sandwichs & Salumi", description: "Le menu d'Antico Salumi : quinze sandwichs italiens sur notre focaccia maison, charcuteries et spécialités, à Laval." },
-    en: { title: "Menu — Sandwiches & Salumi", description: "The Antico Salumi menu: fifteen Italian sandwiches on our house-made focaccia, cured meats and specialties, in Laval." },
+    fr: { title: "Menu — Sandwichs & Salumi", description: "Le menu d'Antico Salumi : quinze sandwichs italiens sur notre schiacciata maison, charcuteries et spécialités, à Laval." },
+    en: { title: "Menu — Sandwiches & Salumi", description: "The Antico Salumi menu: fifteen Italian sandwiches on our house-made schiacciata, cured meats and specialties, in Laval." },
   },
   catering: {
     fr: { title: "Traiteur italien à Laval", description: "Antico Traiteur : plateaux de charcuteries, plateaux de sandwichs, antipasti et événements privés à Laval." },

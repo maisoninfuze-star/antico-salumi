@@ -21,7 +21,7 @@ export const dict = {
     },
     pageHeaders: {
       story: { eyebrow: "La tradizione", title: "Notre histoire", subtitle: "Une maison italienne, une passion transmise de génération en génération." },
-      menu: { eyebrow: "Il menù", title: "Le menu", subtitle: "Quinze sandwichs préparés à la minute, sur notre focaccia maison." },
+      menu: { eyebrow: "Il menù", title: "Le menu", subtitle: "Quinze sandwichs sur notre schiacciata maison, préparés à la minute." },
       catering: { eyebrow: "Antico Traiteur", title: "Traiteur", subtitle: "L'Italie à votre table, pour toutes vos occasions." },
       gallery: { eyebrow: "La galleria", title: "Galerie", subtitle: "Un avant-goût de la maison." },
       contact: { eyebrow: "Ci vediamo presto", title: "Nous trouver", subtitle: "À Laval, sur le boulevard Curé-Labelle." },
@@ -48,9 +48,8 @@ export const dict = {
       eyebrow: "La tradizione",
       title: "Une histoire qui se goûte.",
       body: [
-        "Chez Antico Salumi, la simplicité est une tradition. Du bon pain, des charcuteries que nous fabriquons sur place, des fromages importés et domestiques et des ingrédients qui n’ont pas besoin d’artifice.",
+        "Chez Antico Salumi, la simplicité est une tradition : un bon pain schiacciata, des charcuteries que nous faisons sur place, des fromages importés et domestiques, et des ingrédients sans nitrites, sans hormones, sans antibiotiques ni agents de conservation.",
         "Nous célébrons l’Italie telle qu’on l’aime : généreuse, chaleureuse et profondément attachée à ses traditions.",
-        "Schiacciata cuite sur place, sans nitrites, sans hormones, sans antibiotiques ni agents de conservation. Choisissez parmi nos sandwichs schiacciata, faits devant vous, à la minute.",
       ],
       accent: "Mangiare bene è vivere bene.",
       accentSub: "Bien manger, c'est bien vivre.",
@@ -66,7 +65,7 @@ export const dict = {
           desc: "Prosciutto, mortadella, salame et spécialités que nous fabriquons sur place, tranchées comme dans une véritable salumeria.",
           cta: "Découvrir nos charcuteries", href: "#menu" },
         { key: "formaggi", name: "Formaggi", it: "Formaggi",
-          desc: "Des fromages importés et domestiques, sélectionnés pour accompagner nos sandwichs, plateaux et antipasti.",
+          desc: "Tous nos sandwichs sont préparés avec des fromages au lait de bufflonne du Québec, aussi offerts en boutique : mozzarella di bufala, burrata et stracciatella. Fromages importés et domestiques.",
           cta: "Découvrir", href: "#menu" },
         { key: "antipasti", name: "Antipasti", it: "Antipasti",
           desc: "Des saveurs à partager : charcuteries, fromages, légumes marinés et spécialités inspirées des tables italiennes.",
@@ -78,9 +77,9 @@ export const dict = {
     },
     menu: {
       eyebrow: "Il menù",
-      title: "Quinze sandwichs, numérotés comme au comptoir.",
-      sub: "Préparés sur notre focaccia maison. Sur place ou pour emporter.",
-      noteFr: "Sur notre focaccia maison. Prix en dollars canadiens, taxes en sus. Menu sujet à changement selon les arrivages.",
+      title: "Choisissez parmi nos sandwichs schiacciata, faits sur place, devant vous, à la minute.",
+      sub: "Sur notre schiacciata maison, sur place ou pour emporter.",
+      noteFr: "Sur notre schiacciata maison. Prix en dollars canadiens, taxes en sus. Menu sujet à changement selon les arrivages.",
     },
     foodMoment: {
       big: ["Pane.", "Salumi.", "Passione."],
@@ -198,7 +197,7 @@ export const dict = {
     },
     pageHeaders: {
       story: { eyebrow: "La tradizione", title: "Our story", subtitle: "An Italian house, a passion handed down through generations." },
-      menu: { eyebrow: "Il menù", title: "The menu", subtitle: "Fifteen sandwiches made to order, crafted on our house-made focaccia." },
+      menu: { eyebrow: "Il menù", title: "The menu", subtitle: "Fifteen sandwiches on our house-made schiacciata, made to order." },
       catering: { eyebrow: "Antico Catering", title: "Catering", subtitle: "Italy at your table, for every occasion." },
       gallery: { eyebrow: "La galleria", title: "Gallery", subtitle: "A taste of the house." },
       contact: { eyebrow: "Ci vediamo presto", title: "Find us", subtitle: "In Laval, on boulevard Curé-Labelle." },
@@ -225,9 +224,8 @@ export const dict = {
       eyebrow: "La tradizione",
       title: "A tradition you can taste.",
       body: [
-        "At Antico Salumi, simplicity is a tradition. Good bread, cured meats we make in house, imported and domestic cheeses, and ingredients that need no dressing up.",
+        "At Antico Salumi, simplicity is a tradition: good schiacciata bread, cured meats we make on site, imported and domestic cheeses, and ingredients with no nitrites, hormones, antibiotics or preservatives.",
         "We celebrate Italy the way we love it: generous, warm, and deeply devoted to its traditions.",
-        "Schiacciata baked on site, with no nitrites, hormones, antibiotics or preservatives. Choose from our schiacciata sandwiches, made in front of you, to order.",
       ],
       accent: "Mangiare bene è vivere bene.",
       accentSub: "To eat well is to live well.",
@@ -243,7 +241,7 @@ export const dict = {
           desc: "Prosciutto, mortadella, salame and specialties we make in house, sliced as in a true salumeria.",
           cta: "Discover our salumi", href: "#menu" },
         { key: "formaggi", name: "Formaggi", it: "Formaggi",
-          desc: "Imported and domestic cheeses, chosen to accompany our sandwiches, boards and antipasti.",
+          desc: "All our sandwiches are made with buffalo-milk cheeses from Quebec, also available in store: mozzarella di bufala, burrata and stracciatella. Imported and domestic cheeses.",
           cta: "Discover", href: "#menu" },
         { key: "antipasti", name: "Antipasti", it: "Antipasti",
           desc: "Flavours made for sharing: cured meats, cheeses, marinated vegetables and Italian-table specialties.",
@@ -255,9 +253,9 @@ export const dict = {
     },
     menu: {
       eyebrow: "Il menù",
-      title: "Fifteen sandwiches, numbered like the counter.",
-      sub: "Crafted on our house-made focaccia. Dine in or take it to go.",
-      noteFr: "On our house-made focaccia. Prices in Canadian dollars, taxes extra. Menu subject to change with the season.",
+      title: "Choose from our schiacciata sandwiches, made on site, in front of you, to order.",
+      sub: "On our house-made schiacciata. Dine in or take it to go.",
+      noteFr: "On our house-made schiacciata. Prices in Canadian dollars, taxes extra. Menu subject to change with the season.",
     },
     foodMoment: {
       big: ["Pane.", "Salumi.", "Passione."],
