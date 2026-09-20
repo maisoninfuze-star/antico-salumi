@@ -34,7 +34,7 @@ export const dict = {
       contact: "Nous trouver",
     },
     hero: {
-      eyebrow: "Tradition italienne · Depuis 1934",
+      eyebrow: "Tradition italienne · Depuis 1954",
       title: "Antico Salumi",
       headline: ["L'Italie,", "comme autrefois."],
       support:
@@ -58,9 +58,9 @@ export const dict = {
       eyebrow: "I nostri classici",
       title: "Les incontournables de la maison.",
       items: [
-        { key: "panini", name: "Panini", it: "Panini",
+        { key: "panini", name: "Sandwichs", it: "Sandwich",
           desc: "Des sandwichs généreux préparés à la minute, garnis de nos charcuteries fabriquées sur place, de fromages italiens et d’ingrédients frais.",
-          cta: "Voir les panini", href: "#menu" },
+          cta: "Voir les sandwichs", href: "#menu" },
         { key: "salumi", name: "Salumi", it: "Salumi",
           desc: "Prosciutto, mortadella, salame et spécialités que nous fabriquons sur place, tranchées comme dans une véritable salumeria.",
           cta: "Découvrir nos charcuteries", href: "#menu" },
@@ -86,14 +86,14 @@ export const dict = {
       line: "Rien de compliqué. Seulement de très bons ingrédients.",
     },
     panino: {
-      eyebrow: "L'arte del panino",
-      title: "L'art du panino.",
+      eyebrow: "Fatto a mano",
+      title: "L'art du sandwich.",
       steps: [
         { no: "01", it: "Il pane", text: "Un bon sandwich commence toujours par le pain." },
         { no: "02", it: "I salumi", text: "Tranchés finement pour révéler toute leur saveur." },
         { no: "03", it: "Il formaggio", text: "La richesse et la douceur des fromages italiens." },
         { no: "04", it: "Gli ingredienti", text: "Des ingrédients simples, frais et généreux." },
-        { no: "05", it: "Il panino", text: "Préparé à la minute. Comme il se doit." },
+        { no: "05", it: "Il sandwich", text: "Préparé à la minute. Comme il se doit." },
       ],
     },
     salumeria: {
@@ -158,7 +158,7 @@ export const dict = {
       ctaSecondary: "Nous rendre visite",
     },
     footer: {
-      tagline: "Tradition italienne · Depuis 1934",
+      tagline: "Tradition italienne · Depuis 1954",
       navTitle: "Navigation",
       infoTitle: "Coordonnées",
       followTitle: "Suivez-nous",
@@ -210,7 +210,7 @@ export const dict = {
       contact: "Find us",
     },
     hero: {
-      eyebrow: "Italian tradition · Since 1934",
+      eyebrow: "Italian tradition · Since 1954",
       title: "Antico Salumi",
       headline: ["Old-world Italy,", "right here."],
       support:
@@ -234,9 +234,9 @@ export const dict = {
       eyebrow: "I nostri classici",
       title: "The house favourites.",
       items: [
-        { key: "panini", name: "Panini", it: "Panini",
+        { key: "panini", name: "Sandwiches", it: "Sandwich",
           desc: "Generous sandwiches made to order, layered with our house-made cured meats, Italian cheeses and fresh ingredients.",
-          cta: "See the panini", href: "#menu" },
+          cta: "See the sandwiches", href: "#menu" },
         { key: "salumi", name: "Salumi", it: "Salumi",
           desc: "Prosciutto, mortadella, salame and specialties we make in house, sliced as in a true salumeria.",
           cta: "Discover our salumi", href: "#menu" },
@@ -262,14 +262,14 @@ export const dict = {
       line: "Nothing complicated. Only very good ingredients.",
     },
     panino: {
-      eyebrow: "L'arte del panino",
-      title: "The art of the panino.",
+      eyebrow: "Fatto a mano",
+      title: "The art of the sandwich.",
       steps: [
         { no: "01", it: "Il pane", text: "A good sandwich always begins with the bread." },
         { no: "02", it: "I salumi", text: "Sliced thin to bring out every bit of flavour." },
         { no: "03", it: "Il formaggio", text: "The richness and softness of Italian cheeses." },
         { no: "04", it: "Gli ingredienti", text: "Simple ingredients, fresh and generous." },
-        { no: "05", it: "Il panino", text: "Made to order. Exactly as it should be." },
+        { no: "05", it: "Il sandwich", text: "Made to order. Exactly as it should be." },
       ],
     },
     salumeria: {
@@ -334,7 +334,7 @@ export const dict = {
       ctaSecondary: "Come see us",
     },
     footer: {
-      tagline: "Italian tradition · Since 1934",
+      tagline: "Italian tradition · Since 1954",
       navTitle: "Navigation",
       infoTitle: "Details",
       followTitle: "Follow us",

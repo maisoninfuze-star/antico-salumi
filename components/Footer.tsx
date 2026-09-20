@@ -37,7 +37,7 @@ export default function Footer({ t, lang }: { t: Dict; lang: Locale }) {
             <p className="footer-col-title">{t.footer.hoursLabel}</p>
             <ul className="footer-hours">
               {site.hours.map((h) => (
-                <li key={h.dayFr}><span>{lang === "en" ? h.dayEn : h.dayFr}</span><span>{h.value}</span></li>
+                <li key={h.dayFr}><span>{lang === "en" ? h.dayEn : h.dayFr}</span><span>{lang === "en" ? h.valueEn : h.value}</span></li>
               ))}
             </ul>
           </div>

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description:
     "Découvrez Antico Salumi à Laval : charcuteries que nous fabriquons sur place, sandwichs préparés à l’ancienne, spécialités italiennes, bistro et service traiteur.",
   keywords: [
-    "Antico Salumi Laval", "salumeria Laval", "panini Laval", "traiteur italien Laval",
+    "Antico Salumi Laval", "salumeria Laval", "sandwich italien Laval", "traiteur italien Laval",
     "sandwicherie italienne Laval", "charcuterie italienne Laval", "restaurant italien Laval",
     "Italian deli Laval",
   ],
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Antico Salumi",
     title: "Antico Salumi Laval | Salumeria, Sandwichs & Traiteur Italien",
     description:
-      "Charcuteries italiennes, panini à l'ancienne et service traiteur à Laval. Tradition italienne depuis 1934.",
+      "Charcuteries que nous fabriquons sur place, sandwichs à l’ancienne et service traiteur à Laval. Tradition italienne depuis 1954.",
     images: [{ url: "/img/menu/03-charcutier.jpg", width: 1672, height: 941, alt: "Antico Salumi" }],
   },
   robots: { index: false, follow: false }, // démo pré-lancement — passer à true à la mise en ligne

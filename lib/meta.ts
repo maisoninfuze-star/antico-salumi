@@ -12,8 +12,8 @@ const META: Record<PageKey, { fr: M; en: M }> = {
       description: "Antico Salumi in Laval: house-made cured meats, sandwiches made the old way, specialties, bistro and catering." },
   },
   story: {
-    fr: { title: "Notre histoire", description: "L'histoire d'Antico Salumi, salumeria italienne à Laval — tradition italienne depuis 1934." },
-    en: { title: "Our story", description: "The story of Antico Salumi, an Italian salumeria in Laval — Italian tradition since 1934." },
+    fr: { title: "Notre histoire", description: "L'histoire d'Antico Salumi, salumeria italienne à Laval — tradition italienne depuis 1954." },
+    en: { title: "Our story", description: "The story of Antico Salumi, an Italian salumeria in Laval — Italian tradition since 1954." },
   },
   menu: {
     fr: { title: "Menu — Sandwichs & Salumi", description: "Le menu d'Antico Salumi : quinze sandwichs italiens sur notre focaccia maison, charcuteries et spécialités, à Laval." },
@@ -28,8 +28,8 @@ const META: Record<PageKey, { fr: M; en: M }> = {
     en: { title: "Gallery", description: "A taste of Antico Salumi in Laval: sandwiches, cured meats and the salumeria atmosphere." },
   },
   contact: {
-    fr: { title: "Contact & heures", description: "Adresse, heures et itinéraire — Antico Salumi, 1998 boulevard Curé-Labelle, Laval (QC)." },
-    en: { title: "Contact & hours", description: "Address, hours and directions — Antico Salumi, 1998 boulevard Curé-Labelle, Laval (QC)." },
+    fr: { title: "Contact & heures", description: "Adresse, heures et itinéraire — Antico Salumi, 2002 boulevard Curé-Labelle, Laval (QC)." },
+    en: { title: "Contact & hours", description: "Address, hours and directions — Antico Salumi, 2002 boulevard Curé-Labelle, Laval (QC)." },
   },
 };
 

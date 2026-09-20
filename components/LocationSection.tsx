@@ -29,7 +29,7 @@ export default function LocationSection({ t, lang }: { t: Dict; lang: Locale }) 
                 {site.hours.map((h) => (
                   <div key={h.dayFr}>
                     <dt>{lang === "en" ? h.dayEn : h.dayFr}</dt>
-                    <dd>{h.value}</dd>
+                    <dd>{lang === "en" ? h.valueEn : h.value}</dd>
                   </div>
                 ))}
               </dl>
