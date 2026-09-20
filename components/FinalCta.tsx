@@ -11,7 +11,7 @@ export default function FinalCta({ t, lang }: { t: Dict; lang: Locale }) {
     <section className="finalcta bg-wood">
       <div className="wrap finalcta-inner">
         <Reveal className="finalcta-logo">
-          <Image src="/img/logo-mark.jpg" alt="Antico Salumi" width={1380} height={480}
+          <Image src="/img/logo-mark-v2.jpg" alt="Antico Salumi" width={1380} height={480}
             sizes="(max-width:860px) 80vw, 520px" />
         </Reveal>
         <Reveal delay={0.1}><h2 className="finalcta-it">{t.finalCta.it}</h2></Reveal>
